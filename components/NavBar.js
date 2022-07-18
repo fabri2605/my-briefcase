@@ -3,7 +3,7 @@ import classes from './NavBar.module.css';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
-const NavBar = (props) => {
+const NavBar = () => {
     const router = useRouter();
     const goHome = () => {
         router.push('/');

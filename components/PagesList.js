@@ -1,15 +1,5 @@
 import React from 'react';
 import PageItem from './PageItem';
-import classes from './PagesList.module.css';
-
-/* {
-        title: 'Food Page',
-        img: '/eye_mid.jpg',
-        description:
-            'A simple food page where you can order and add different menus to your cart',
-        link: '',
-    } */
-
 const PagesList = (props) => {
     return (
         <div className='centered'>

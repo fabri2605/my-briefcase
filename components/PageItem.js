@@ -1,8 +1,6 @@
 import classes from './PageItem.module.css';
-import {useRouter} from 'next/router';
 
 const PageItem = (props) => {
-    const router = useRouter();
     const detailsHandler = () => {
         window.location.assign(props.link);
     };

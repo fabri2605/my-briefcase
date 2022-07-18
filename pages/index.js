@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Image from 'next/image';
 import PagesList from '../components/PagesList';
 import { MongoClient } from 'mongodb';
 
