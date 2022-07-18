@@ -12,11 +12,16 @@ const NavBar = () => {
         <React.Fragment>
             <nav className={classes.container}>
                 <h1 onClick={goHome} className={classes.logo}>
-                    My creations!
+                    My briefcase!
                 </h1>
                 <ul>
                     <li className={classes.avatar}>
-                        <Link href='/about-me'><img src='/user_64.png' alt='About me' /></Link>
+                        <label htmlFor='about'><Link href='/about-me' id='about'>
+                            About me
+                        </Link></label>
+                        <Link href='/about-me' id='about'>
+                            <img src='/user_64.png' alt='About me' />
+                        </Link>
                     </li>
                 </ul>
             </nav>

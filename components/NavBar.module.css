@@ -17,20 +17,27 @@
 .container ul {
     display: flex;
     flex-wrap: wrap;
-    align-items: baseline;
     list-style: none;
+    align-items: baseline;
 }
 .container li {
     margin-left: 1rem;
-    margin-bottom: 0.1rem;
-}
-
-.main {
-    margin: auto;
-    width: 90%;
-    max-width: 40rem;
 }
 
 .avatar{
+    display: flex;
     cursor: pointer;
+    width: auto;
+}
+.avatar label{
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 10px;
+    font-size: large;
+}
+
+@media screen and (max-width: 517px){
+    .avatar label{
+        display: none;
+    }
 }
