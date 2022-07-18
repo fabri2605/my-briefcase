@@ -1,0 +1,68 @@
+html,
+body {
+    background-color: rgb(32, 43, 165);
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+.centered {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1 {
+    
+}
+.btn {
+    text-decoration: none;
+    background-color: teal;
+    color: white;
+    border-radius: 4px;
+    padding: 0.75rem 1.5rem;
+    border: 1px solid teal;
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #11acac;
+    border-color: #11acac;
+}
+
+.btn--flat {
+    cursor: pointer;
+    font: inherit;
+    color: teal;
+    border: none;
+    background-color: none;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+}
+
+.btn--flat:hover,
+.btn--flat:active {
+    background-color: teal;
+    color: white;
+}
+
+.btn:disabled {
+    border-color: rgba(0, 0, 0, 0.367);
+    background-color: grey;
+    color: black;
+    cursor: not-allowed;
+}
