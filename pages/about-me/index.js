@@ -14,7 +14,7 @@ const AboutMe = (props) => {
                 />
                 <meta name='description' content='My personal briefcase' />
             </Head>
-                <h1>Hi im Fabricio Di Paolo..</h1>
+                
                 <MyBody></MyBody>
         </div>
     );

@@ -1,14 +1,19 @@
 .container {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     width: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0;
     padding: 0 10%;
     color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0px 0px 15px black;
 }
 .container .logo {
     font-size: 2rem;
+    color: black;
     font-weight: bold;
     margin: 0;
     text-shadow: red -2px 0, cyan 2px 0;
@@ -28,6 +33,7 @@
     display: flex;
     cursor: pointer;
     width: auto;
+    color: black;
 }
 .avatar label{
     cursor: pointer;

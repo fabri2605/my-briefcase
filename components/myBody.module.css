@@ -5,6 +5,7 @@
     align-items: center;
     flex-wrap: wrap;
     padding: 0;
+    color: black;
 }
 .contact {
     background-color: white;

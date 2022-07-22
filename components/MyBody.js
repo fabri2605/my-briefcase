@@ -3,6 +3,7 @@ import classes from './myBody.module.css';
 const myBody = () => {
     return (
         <div className={classes.info}>
+            <h1>Hi im Fabricio Di Paolo..</h1>
             <div>
                 <h3>Here are some of my studies</h3>
                 <ul>

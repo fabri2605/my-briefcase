@@ -27,17 +27,18 @@
     /* styling */
     font-size: large;
     text-decoration: none;
-    background-color: rgb(0, 128, 47);
-    color: white;
-    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.806);
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 20px 10px black;
+    border-radius: 10px;
     padding: 0.55rem 1rem;
-    border: 1px solid rgb(11, 128, 0);
     cursor: pointer;
+    border: transparent;
+    transition: 1s;
 }
 .image_cont button:hover,
 .image_cont button:active {
-    background-color: #069b6e;
-    border-color: #068c52;
+    box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.318);
 }
 .image_cont button--flat {
     cursor: pointer;
