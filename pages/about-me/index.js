@@ -4,7 +4,7 @@ import Head from 'next/head';
 
 const AboutMe = (props) => {
     return (
-        <div className='centered'>
+        <div className='centered tall'>
             <Head>
                 <title>My Creations</title>
                 <link rel='icon' href='/favicon.ico' />

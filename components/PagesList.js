@@ -3,7 +3,7 @@ import PageItem from './PageItem';
 import classes from './PagesList.module.css';
 const PagesList = (props) => {
     return (
-        <div className='centered'>
+        <div className='centered tall'>
             <h2 className={classes.open}>Welcome to my briefcase, feel free to try some of my pages!</h2>
             {props.pages.map((e) => {
                 return (

@@ -10,6 +10,7 @@
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     box-shadow: 0px 0px 15px black;
+    z-index: 2;
 }
 .container .logo {
     font-size: 2rem;
@@ -54,6 +55,12 @@
     margin-top: 20px;
     margin-right: 10px;
     font-size: large;
+}
+
+.main{
+    background: linear-gradient(white 30%, #123);
+    
+    z-index: 1;
 }
 
 @media screen and (max-width: 517px){

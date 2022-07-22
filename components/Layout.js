@@ -1,11 +1,15 @@
-import NavBar from "./NavBar";
-import classes from "./NavBar.module.css";
+import NavBar from './NavBar';
+import classes from './NavBar.module.css';
 
 const Layout = (props) => {
-    return <div>
-        <NavBar></NavBar>
-        <main className={classes.main}>{props.children}</main>
-    </div>
+    return (
+        <div>
+            <main className={classes.main}>
+                <NavBar></NavBar>
+                {props.children}
+            </main>
+        </div>
+    );
 };
 
 export default Layout;
