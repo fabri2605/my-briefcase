@@ -19,6 +19,20 @@
     text-shadow: red -2px 0, cyan 2px 0;
     cursor: pointer;
 }
+.container .logo:hover {
+    animation: titling 2s infinite ease-in-out;
+}
+@keyframes titling{
+    0%{
+        text-shadow: red -2px 0, cyan 2px 0;
+    }
+    50%{
+        text-shadow: red 2px 0, cyan -2px 0;
+    }
+    100%{
+        text-shadow: red -2px 0, cyan 2px 0;
+    }
+}
 .container ul {
     display: flex;
     flex-wrap: wrap;
