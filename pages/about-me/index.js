@@ -2,7 +2,7 @@ import React from 'react';
 import MyBody from '../../components/MyBody';
 import Head from 'next/head';
 
-const AboutMe = (props) => {
+const AboutMe = () => {
     return (
         <div className='centered tall'>
             <Head>
@@ -14,8 +14,7 @@ const AboutMe = (props) => {
                 />
                 <meta name='description' content='My personal briefcase' />
             </Head>
-                
-                <MyBody></MyBody>
+            <MyBody></MyBody>
         </div>
     );
 };
