@@ -6,27 +6,45 @@
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding: 0;
 }
 .contact {
     background-color: white;
+    margin-bottom: 1rem;
     color: black;
 }
 .info div {
+    width: 25%;
     background-color: black;
     color: white;
     font-size: large;
     border-radius: 9px;
-    padding: 0 10px 0 10px;
     box-shadow: 0px 0px 15px rgb(0, 0, 0);
-    max-width: 90%;
     margin-bottom: 15px;
 }
 .info ul {
-    list-style-type: none;
     padding: 0;
+    
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 50%;
 }
-@media screen and (min-width:500px){
+.info h3{
+    padding-bottom: 15px;
+}
+@media screen and (max-width:870px){
     .info div{
-        padding: 0 20px 0 20px;}
+        padding: 0 20px 0 20px;
+        width: 80%;
+    }
+    .info h3{
+        padding-bottom: 0px;
+    }
+}
+@media screen and (max-width:900px){
+    .info div{
+        padding: 0 20px 0 20px;
+        padding-bottom: 10px;
+    }
 }
