@@ -15,6 +15,9 @@ const myBody = () => {
                             React with NextJS or React-router
                         </li>
                         <li>
+                            Node.js
+                        </li>
+                        <li>
                             TypeScript as a secondary language
                         </li>
                         <li>MySQL , MongoDB & firebase</li>
