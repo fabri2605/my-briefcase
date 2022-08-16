@@ -23,12 +23,12 @@
 }
 .info ul {
     padding: 0;
-    
     list-style-type: none;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     height: 50%;
+    margin-top: 0;
 }
 .info h3{
     padding-bottom: 15px;
@@ -40,6 +40,9 @@
     }
     .info h3{
         padding-bottom: 0px;
+    }
+    .info ul {
+        height: fit-content;
     }
 }
 @media screen and (max-width:900px){
