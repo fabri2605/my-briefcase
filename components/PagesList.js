@@ -5,7 +5,7 @@ const PagesList = (props) => {
     return (
         <div className='centered tall'>
             <h2 className={classes.open}>Welcome to my briefcase, feel free to try some of my pages!</h2>
-            {props.pages.map((e) => {
+            {props.pages.reverse().map((e) => {
                 return (
                     <PageItem
                         link={e.link}
