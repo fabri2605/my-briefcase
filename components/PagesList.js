@@ -2,7 +2,7 @@ import React from 'react';
 import PageItem from './PageItem';
 import classes from './PagesList.module.css';
 const PagesList = (props) => {
-    //pageslist
+    
     return (
         <div className='centered tall'>
             <h2 className={classes.open}>Welcome to my briefcase, feel free to try some of my pages!</h2>
